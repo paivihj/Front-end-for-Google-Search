@@ -16,6 +16,10 @@ input[type=text] {
 	padding-right: 20 px;
 }
 
+input[type=text]:hover {
+	border: 2px outset lightgrey;
+}
+
 input[type=submit]{
 	height: 30px;
 	border-style:none;

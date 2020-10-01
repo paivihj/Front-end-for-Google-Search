@@ -13,7 +13,6 @@ section {
 	border-bottom: 1px solid LightGrey;
 	padding-top: 40px;
 	padding-bottom:10px;
-	
 }
 
 img {
@@ -30,7 +29,11 @@ input[type=text] {
 	margin-right: 60%;
 	float: right;
 	height: 28px;
-	border: 1px solid grey;
+	border: 1px solid lightgrey;
+}
+
+input[type=text]:hover {
+	border: 1px solid DodgerBlue;
 }
 
 input[type=submit]{
@@ -77,10 +80,12 @@ h3 {
 
 h5 {
 	
+	display: block;
 	font-weight: normal;
 	width: 200px;
 	margin-left: 40px;
-	vertical-align: middle;
+	line-height: 1.75;
+	
 }
 
 nav {
