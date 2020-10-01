@@ -1,0 +1,49 @@
+body {
+	margin-top: 15%;
+	text-align: center;
+	font-family: Arial;
+}
+
+img {
+	margin-bottom:20px;
+}
+
+input[type=text] {
+	height: 40px;
+	border: 1px solid grey;
+	border-radius: 30px;
+	padding-left: 20px;
+	padding-right: 20 px;
+}
+
+input[type=submit]{
+	height: 30px;
+	border-style:none;
+	border-radius: 5px;
+	margin: 7px;
+}
+
+input[type=submit]:hover {
+	border: 1px solid grey;
+}
+
+a:link {
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: grey;
+	text-decoration: none;
+}
+
+p {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 16px;
+}
