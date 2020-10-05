@@ -1,5 +1,5 @@
 body {
-	margin-top: 15%;
+	margin-top: 12%;
 	text-align: center;
 	font-family: Arial;
 }
@@ -10,14 +10,14 @@ img {
 
 input[type=text] {
 	height: 40px;
-	border: 1px solid grey;
+	border: 1px solid lightgrey;
 	border-radius: 30px;
 	padding-left: 20px;
 	padding-right: 20 px;
 }
 
 input[type=text]:hover {
-	border: 2px outset lightgrey;
+	box-shadow:1px 1px 2px 2px gainsboro;
 }
 
 input[type=submit]{
@@ -47,7 +47,7 @@ a:visited {
 
 p {
   position: absolute;
-  top: 8px;
+  top: 4px;
   right: 16px;
   font-size: 16px;
 }
